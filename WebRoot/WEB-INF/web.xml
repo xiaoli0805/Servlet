@@ -16,4 +16,15 @@
   	<servlet-name>TimeServlet</servlet-name>
   	<url-pattern>/time</url-pattern>
   </servlet-mapping>
+  
+  
+  
+  <servlet>
+  	<servlet-name>FindStudentServlet</servlet-name>
+  	<servlet-class>com.situ.web.TimeServlet.FindStudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FindStudentServlet</servlet-name>
+  	<url-pattern>/findstudent</url-pattern>
+  </servlet-mapping>
 </web-app>
